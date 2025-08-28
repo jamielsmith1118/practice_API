@@ -1,6 +1,6 @@
 ### INF601 - Advanced Programming in Python
 ### Jamie Smith
-### Practice API
+### practice_API
  
  
 # Project Title
