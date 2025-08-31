@@ -1,5 +1,6 @@
 # url = "https://v1.american-football.api-sports.io/leagues"
-# from creds import api_key
+
+# api_key = '9fe360f84b458f8f87f7dbc6119a9323'
 
 # payload={}
 # headers = {
@@ -29,11 +30,10 @@ import pprint
 conn = http.client.HTTPSConnection("v1.american-football.api-sports.io")
 
 from creds import api_key
-
 headers = {
-    "x-rapidapi-host": "v1.american-football.api-sports.io"
-'x-rapidapi-key':'api_key',
-"content-type": "application/json"
+    'x-rapidapi-host': "v1.american-football.api-sports.io",
+'x-rapidapi-key': api_key,
+'content-type': 'application/json'
 }
 
 conn.request("GET", "/leagues", headers=headers)
