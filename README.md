@@ -2,10 +2,11 @@
 ### Jamie Smith
 ### practice_API
  
+This is for practice with APIs. 
+
+# API Practice
  
-# Project Title
- 
-Simple overview of use/purpose.
+Learning to use APIs.
  
 ## Description
  
