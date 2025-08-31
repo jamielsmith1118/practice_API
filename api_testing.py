@@ -29,10 +29,10 @@ import pprint
 
 conn = http.client.HTTPSConnection("v1.american-football.api-sports.io")
 
-from creds import api_key
+from creds import sports_key
 headers = {
     'x-rapidapi-host': "v1.american-football.api-sports.io",
-'x-rapidapi-key': api_key,
+'x-rapidapi-key': sports_key,
 'content-type': 'application/json'
 }
 
@@ -44,15 +44,17 @@ data = res.read()
 # print(data.decode("utf-8"))
 pprint.pprint(data)
 
-# url = "https://v1.american-football.api-sports.io/leagues"
-#
-# payload = {}
-# headers = {
-#     'x-rapidapi-key': 'api_key',
-#     'x-rapidapi-host': 'v1.american-football.api-sports.io'
-# }
-#
-# response = requests.request("GET", url, headers=headers, data=payload)
-#
-# # print(response.text)
-# pprint.pprint(data)
+import requests
+
+url = "https://v1.american-football.api-sports.io/leagues"
+
+payload = {}
+headers = {
+    'x-rapidapi-key': sports_key,
+    'x-rapidapi-host': 'v1.american-football.api-sports.io'
+}
+
+response = requests.request("GET", url, headers=headers, data=payload)
+
+# print(response.text)
+pprint.pprint(requests.Request)
