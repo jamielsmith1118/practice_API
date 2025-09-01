@@ -60,6 +60,14 @@ from creds import sports_key
 # # print(response.text)
 # pprint.pprint(requests.Request)
 
+
+
+
+
+
+
+
+# Team information
 import http.client
 import json
 
@@ -70,9 +78,28 @@ headers = {
     'x-rapidapi-key': sports_key
     }
 
-conn.request("GET", "/teams?id=24", headers=headers)
+conn.request("GET", "/teams?id=101", headers=headers)
 
 res = conn.getresponse()
 data = res.read()
 
 pprint.pprint(json.loads(data.decode("utf-8")))
+
+
+
+# # League Information
+# import http.client
+#
+# conn = http.client.HTTPSConnection("v1.american-football.api-sports.io")
+#
+# headers = {
+#     'x-rapidapi-host': "v1.american-football.api-sports.io",
+#     'x-rapidapi-key': sports_key
+#     }
+#
+# conn.request("GET", "/leagues", headers=headers)
+#
+# res = conn.getresponse()
+# data = res.read()
+#
+# pprint.pprint(json.loads(data.decode("utf-8")))
