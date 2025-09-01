@@ -1,10 +1,9 @@
 # # url = "https://v1.american-football.api-sports.io/leagues"
 #
-# # api_key = '9fe360f84b458f8f87f7dbc6119a9323'
 #
 # # payload={}
 # # headers = {
-# #   'x-rapidapi-key': 'api_key',
+# #   'x-rapidapi-key': 'nfl_key',
 # #   'x-rapidapi-host': 'v1.american-football.api-sports.io'
 # # }
 # #
@@ -30,10 +29,10 @@
 #
 import pprint
 
-from creds import sports_key
+from creds import nfl_key
 # headers = {
 #     'x-rapidapi-host': "v1.american-football.api-sports.io",
-# 'x-rapidapi-key': sports_key,
+# 'x-rapidapi-key': nfl_key,
 # 'content-type': 'application/json'
 # }
 #
@@ -51,7 +50,7 @@ from creds import sports_key
 #
 # payload = {}
 # headers = {
-#     'x-rapidapi-key': sports_key,
+#     'x-rapidapi-key': nfl_key,
 #     'x-rapidapi-host': 'v1.american-football.api-sports.io'
 # }
 #
@@ -75,7 +74,7 @@ conn = http.client.HTTPSConnection("v1.american-football.api-sports.io")
 
 headers = {
     'x-rapidapi-host': "v1.american-football.api-sports.io",
-    'x-rapidapi-key': sports_key
+    'x-rapidapi-key': nfl_key
     }
 
 conn.request("GET", "/teams?id=101", headers=headers)
