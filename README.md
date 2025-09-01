@@ -16,7 +16,7 @@ An in-depth paragraph about your project and overview of use.
  
 ### Dependencies
  
-* Create a creds file that contains your API key.
+* Create a creds file that contains your API key. The key should be named nfl_key.
 * Describe any prerequisites, libraries, OS version, etc., needed before installing program.
 * ex. Windows 10
 * List pip install instructions.
