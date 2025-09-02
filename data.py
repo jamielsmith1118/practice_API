@@ -1,73 +1,252 @@
-(b'{"get":"leagues","parameters":[],"errors":[],"results":2,"response":[{"leagu'
- b'e":{"id":2,"name":"NCAA","logo":"https:\\/\\/media.api-sports.io\\/american'
- b'-football\\/leagues\\/2.png"},"country":{"name":"USA","code":"US","flag":"'
- b'https:\\/\\/media.api-sports.io\\/flags\\/us.svg"},"seasons":[{"year":2025,"'
- b'start":"2025-08-23","end":"2026-01-20","current":true,"coverage":{"games":{"'
- b'events":true,"statisitcs":{"teams":true,"players":true}},"statistics":{"seas'
- b'on":{"players":true}},"players":true,"injuries":true,"standings":true}},{"ye'
- b'ar":2024,"start":"2024-08-24","end":"2025-01-21","current":false,"coverage":'
- b'{"games":{"events":true,"statisitcs":{"teams":true,"players":true}},"statist'
- b'ics":{"season":{"players":true}},"players":true,"injuries":false,"standings"'
- b':true}},{"year":2023,"start":"2023-08-26","end":"2024-01-09","current":false'
- b',"coverage":{"games":{"events":true,"statisitcs":{"teams":true,"players":tru'
- b'e}},"statistics":{"season":{"players":true}},"players":true,"injuries":false'
- b',"standings":true}},{"year":2022,"start":"2022-08-27","end":"2023-01-10","cu'
- b'rrent":false,"coverage":{"games":{"events":true,"statisitcs":{"teams":true,"'
- b'players":true}},"statistics":{"season":{"players":true}},"players":true,"inj'
- b'uries":false,"standings":true}}]},{"league":{"id":1,"name":"NFL","logo":"htt'
- b'ps:\\/\\/media.api-sports.io\\/american-football\\/leagues\\/1.png"},"cou'
- b'ntry":{"name":"USA","code":"US","flag":"https:\\/\\/media.api-sports.io\\/f'
- b'lags\\/us.svg"},"seasons":[{"year":2025,"start":"2025-08-01","end":"2026-'
- b'02-08","current":true,"coverage":{"games":{"events":true,"statisitcs":{"team'
- b's":true,"players":true}},"statistics":{"season":{"players":true}},"players":'
- b'true,"injuries":true,"standings":true}},{"year":2024,"start":"2024-08-02","e'
- b'nd":"2025-02-09","current":false,"coverage":{"games":{"events":true,"statisi'
- b'tcs":{"teams":true,"players":true}},"statistics":{"season":{"players":true}}'
- b',"players":true,"injuries":false,"standings":true}},{"year":2023,"start":"20'
- b'23-08-04","end":"2024-02-11","current":false,"coverage":{"games":{"events":t'
- b'rue,"statisitcs":{"teams":true,"players":true}},"statistics":{"season":{"pla'
- b'yers":true}},"players":true,"injuries":false,"standings":true}},{"year":2022'
- b',"start":"2022-08-05","end":"2023-02-12","current":false,"coverage":{"games"'
- b':{"events":true,"statisitcs":{"teams":true,"players":true}},"statistics":{"s'
- b'eason":{"players":true}},"players":true,"injuries":false,"standings":true}},'
- b'{"year":2021,"start":"2021-08-12","end":"2022-02-13","current":false,"covera'
- b'ge":{"games":{"events":true,"statisitcs":{"teams":true,"players":true}},"sta'
- b'tistics":{"season":{"players":false}},"players":true,"injuries":false,"stand'
- b'ings":true}},{"year":2020,"start":"2020-09-13","end":"2021-02-07","current":'
- b'false,"coverage":{"games":{"events":true,"statisitcs":{"teams":true,"players'
- b'":true}},"statistics":{"season":{"players":false}},"players":true,"injuries"'
- b':false,"standings":true}},{"year":2019,"start":"2019-08-08","end":"2020-02-0'
- b'2","current":false,"coverage":{"games":{"events":true,"statisitcs":{"teams":'
- b'true,"players":true}},"statistics":{"season":{"players":false}},"players":tr'
- b'ue,"injuries":false,"standings":true}},{"year":2018,"start":"2018-08-09","en'
- b'd":"2019-02-03","current":false,"coverage":{"games":{"events":true,"statisit'
- b'cs":{"teams":true,"players":true}},"statistics":{"season":{"players":false}}'
- b',"players":true,"injuries":false,"standings":true}},{"year":2017,"start":"20'
- b'17-08-09","end":"2018-02-04","current":false,"coverage":{"games":{"events":t'
- b'rue,"statisitcs":{"teams":true,"players":true}},"statistics":{"season":{"pla'
- b'yers":false}},"players":true,"injuries":false,"standings":true}},{"year":201'
- b'6,"start":"2016-08-12","end":"2017-02-05","current":false,"coverage":{"games'
- b'":{"events":true,"statisitcs":{"teams":true,"players":true}},"statistics":{"'
- b'season":{"players":false}},"players":true,"injuries":false,"standings":true}'
- b'},{"year":2015,"start":"2015-08-13","end":"2016-02-07","current":false,"cove'
- b'rage":{"games":{"events":false,"statisitcs":{"teams":false,"players":false}}'
- b',"statistics":{"season":{"players":false}},"players":false,"injuries":false,'
- b'"standings":true}},{"year":2014,"start":"2014-08-07","end":"2015-02-01","cur'
- b'rent":false,"coverage":{"games":{"events":false,"statisitcs":{"teams":false,'
- b'"players":false}},"statistics":{"season":{"players":false}},"players":false,'
- b'"injuries":false,"standings":true}},{"year":2013,"start":"2013-08-08","end":'
- b'"2014-02-02","current":false,"coverage":{"games":{"events":false,"statisitcs'
- b'":{"teams":false,"players":false}},"statistics":{"season":{"players":false}}'
- b',"players":false,"injuries":false,"standings":true}},{"year":2012,"start":"2'
- b'012-08-09","end":"2013-02-03","current":false,"coverage":{"games":{"events":'
- b'false,"statisitcs":{"teams":false,"players":false}},"statistics":{"season":{'
- b'"players":false}},"players":false,"injuries":false,"standings":true}},{"year'
- b'":2011,"start":"2011-08-12","end":"2012-02-05","current":false,"coverage":{"'
- b'games":{"events":false,"statisitcs":{"teams":false,"players":false}},"statis'
- b'tics":{"season":{"players":false}},"players":false,"injuries":false,"standin'
- b'gs":true}},{"year":2010,"start":"2010-08-12","end":"2011-02-06","current":fa'
- b'lse,"coverage":{"games":{"events":false,"statisitcs":{"teams":false,"players'
- b'":false}},"statistics":{"season":{"players":false}},"players":false,"injurie'
- b's":false,"standings":true}}]}]}')
-
-Process finished with exit code 0
+my_team_data = {'errors': [],
+ 'get': 'teams',
+ 'parameters': {'id': '29'},
+ 'response': [{'city': 'Dallas',
+               'coach': 'Mike McCarthy',
+               'code': 'DAL',
+               'country': {'code': 'US',
+                           'flag': 'https://media.api-sports.io/flags/us.svg',
+                           'name': 'USA'},
+               'established': 1960,
+               'id': 29,
+               'logo': 'https://media.api-sports.io/american-football/teams/29.png',
+               'name': 'Dallas Cowboys',
+               'owner': 'Jerry Jones',
+               'stadium': 'AT&T Stadium'}],
+ 'results': 1}
+my_league_data = {'errors': [],
+ 'get': 'leagues',
+ 'parameters': [],
+ 'response': [{'country': {'code': 'US',
+                           'flag': 'https://media.api-sports.io/flags/us.svg',
+                           'name': 'USA'},
+               'league': {'id': 2,
+                          'logo': 'https://media.api-sports.io/american-football/leagues/2.png',
+                          'name': 'NCAA'},
+               'seasons': [{'coverage': {'games': {'events': True,
+                                                   'statisitcs': {'players': True,
+                                                                  'teams': True}},
+                                         'injuries': True,
+                                         'players': True,
+                                         'standings': True,
+                                         'statistics': {'season': {'players': True}}},
+                            'current': True,
+                            'end': '2026-01-20',
+                            'start': '2025-08-23',
+                            'year': 2025},
+                           {'coverage': {'games': {'events': True,
+                                                   'statisitcs': {'players': True,
+                                                                  'teams': True}},
+                                         'injuries': False,
+                                         'players': True,
+                                         'standings': True,
+                                         'statistics': {'season': {'players': True}}},
+                            'current': False,
+                            'end': '2025-01-21',
+                            'start': '2024-08-24',
+                            'year': 2024},
+                           {'coverage': {'games': {'events': True,
+                                                   'statisitcs': {'players': True,
+                                                                  'teams': True}},
+                                         'injuries': False,
+                                         'players': True,
+                                         'standings': True,
+                                         'statistics': {'season': {'players': True}}},
+                            'current': False,
+                            'end': '2024-01-09',
+                            'start': '2023-08-26',
+                            'year': 2023},
+                           {'coverage': {'games': {'events': True,
+                                                   'statisitcs': {'players': True,
+                                                                  'teams': True}},
+                                         'injuries': False,
+                                         'players': True,
+                                         'standings': True,
+                                         'statistics': {'season': {'players': True}}},
+                            'current': False,
+                            'end': '2023-01-10',
+                            'start': '2022-08-27',
+                            'year': 2022}]},
+              {'country': {'code': 'US',
+                           'flag': 'https://media.api-sports.io/flags/us.svg',
+                           'name': 'USA'},
+               'league': {'id': 1,
+                          'logo': 'https://media.api-sports.io/american-football/leagues/1.png',
+                          'name': 'NFL'},
+               'seasons': [{'coverage': {'games': {'events': True,
+                                                   'statisitcs': {'players': True,
+                                                                  'teams': True}},
+                                         'injuries': True,
+                                         'players': True,
+                                         'standings': True,
+                                         'statistics': {'season': {'players': True}}},
+                            'current': True,
+                            'end': '2026-02-08',
+                            'start': '2025-08-01',
+                            'year': 2025},
+                           {'coverage': {'games': {'events': True,
+                                                   'statisitcs': {'players': True,
+                                                                  'teams': True}},
+                                         'injuries': False,
+                                         'players': True,
+                                         'standings': True,
+                                         'statistics': {'season': {'players': True}}},
+                            'current': False,
+                            'end': '2025-02-09',
+                            'start': '2024-08-02',
+                            'year': 2024},
+                           {'coverage': {'games': {'events': True,
+                                                   'statisitcs': {'players': True,
+                                                                  'teams': True}},
+                                         'injuries': False,
+                                         'players': True,
+                                         'standings': True,
+                                         'statistics': {'season': {'players': True}}},
+                            'current': False,
+                            'end': '2024-02-11',
+                            'start': '2023-08-04',
+                            'year': 2023},
+                           {'coverage': {'games': {'events': True,
+                                                   'statisitcs': {'players': True,
+                                                                  'teams': True}},
+                                         'injuries': False,
+                                         'players': True,
+                                         'standings': True,
+                                         'statistics': {'season': {'players': True}}},
+                            'current': False,
+                            'end': '2023-02-12',
+                            'start': '2022-08-05',
+                            'year': 2022},
+                           {'coverage': {'games': {'events': True,
+                                                   'statisitcs': {'players': True,
+                                                                  'teams': True}},
+                                         'injuries': False,
+                                         'players': True,
+                                         'standings': True,
+                                         'statistics': {'season': {'players': False}}},
+                            'current': False,
+                            'end': '2022-02-13',
+                            'start': '2021-08-12',
+                            'year': 2021},
+                           {'coverage': {'games': {'events': True,
+                                                   'statisitcs': {'players': True,
+                                                                  'teams': True}},
+                                         'injuries': False,
+                                         'players': True,
+                                         'standings': True,
+                                         'statistics': {'season': {'players': False}}},
+                            'current': False,
+                            'end': '2021-02-07',
+                            'start': '2020-09-13',
+                            'year': 2020},
+                           {'coverage': {'games': {'events': True,
+                                                   'statisitcs': {'players': True,
+                                                                  'teams': True}},
+                                         'injuries': False,
+                                         'players': True,
+                                         'standings': True,
+                                         'statistics': {'season': {'players': False}}},
+                            'current': False,
+                            'end': '2020-02-02',
+                            'start': '2019-08-08',
+                            'year': 2019},
+                           {'coverage': {'games': {'events': True,
+                                                   'statisitcs': {'players': True,
+                                                                  'teams': True}},
+                                         'injuries': False,
+                                         'players': True,
+                                         'standings': True,
+                                         'statistics': {'season': {'players': False}}},
+                            'current': False,
+                            'end': '2019-02-03',
+                            'start': '2018-08-09',
+                            'year': 2018},
+                           {'coverage': {'games': {'events': True,
+                                                   'statisitcs': {'players': True,
+                                                                  'teams': True}},
+                                         'injuries': False,
+                                         'players': True,
+                                         'standings': True,
+                                         'statistics': {'season': {'players': False}}},
+                            'current': False,
+                            'end': '2018-02-04',
+                            'start': '2017-08-09',
+                            'year': 2017},
+                           {'coverage': {'games': {'events': True,
+                                                   'statisitcs': {'players': True,
+                                                                  'teams': True}},
+                                         'injuries': False,
+                                         'players': True,
+                                         'standings': True,
+                                         'statistics': {'season': {'players': False}}},
+                            'current': False,
+                            'end': '2017-02-05',
+                            'start': '2016-08-12',
+                            'year': 2016},
+                           {'coverage': {'games': {'events': False,
+                                                   'statisitcs': {'players': False,
+                                                                  'teams': False}},
+                                         'injuries': False,
+                                         'players': False,
+                                         'standings': True,
+                                         'statistics': {'season': {'players': False}}},
+                            'current': False,
+                            'end': '2016-02-07',
+                            'start': '2015-08-13',
+                            'year': 2015},
+                           {'coverage': {'games': {'events': False,
+                                                   'statisitcs': {'players': False,
+                                                                  'teams': False}},
+                                         'injuries': False,
+                                         'players': False,
+                                         'standings': True,
+                                         'statistics': {'season': {'players': False}}},
+                            'current': False,
+                            'end': '2015-02-01',
+                            'start': '2014-08-07',
+                            'year': 2014},
+                           {'coverage': {'games': {'events': False,
+                                                   'statisitcs': {'players': False,
+                                                                  'teams': False}},
+                                         'injuries': False,
+                                         'players': False,
+                                         'standings': True,
+                                         'statistics': {'season': {'players': False}}},
+                            'current': False,
+                            'end': '2014-02-02',
+                            'start': '2013-08-08',
+                            'year': 2013},
+                           {'coverage': {'games': {'events': False,
+                                                   'statisitcs': {'players': False,
+                                                                  'teams': False}},
+                                         'injuries': False,
+                                         'players': False,
+                                         'standings': True,
+                                         'statistics': {'season': {'players': False}}},
+                            'current': False,
+                            'end': '2013-02-03',
+                            'start': '2012-08-09',
+                            'year': 2012},
+                           {'coverage': {'games': {'events': False,
+                                                   'statisitcs': {'players': False,
+                                                                  'teams': False}},
+                                         'injuries': False,
+                                         'players': False,
+                                         'standings': True,
+                                         'statistics': {'season': {'players': False}}},
+                            'current': False,
+                            'end': '2012-02-05',
+                            'start': '2011-08-12',
+                            'year': 2011},
+                           {'coverage': {'games': {'events': False,
+                                                   'statisitcs': {'players': False,
+                                                                  'teams': False}},
+                                         'injuries': False,
+                                         'players': False,
+                                         'standings': True,
+                                         'statistics': {'season': {'players': False}}},
+                            'current': False,
+                            'end': '2011-02-06',
+                            'start': '2010-08-12',
+                            'year': 2010}]}],
+ 'results': 2}

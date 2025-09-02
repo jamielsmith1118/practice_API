@@ -1,3 +1,5 @@
+from data import *
+
 # # url = "https://v1.american-football.api-sports.io/leagues"
 #
 #
@@ -66,25 +68,25 @@ from creds import nfl_key
 
 
 
-# Team information
-import http.client
-import json
+# # Team information
+# import http.client
+# import json
+#
+# conn = http.client.HTTPSConnection("v1.american-football.api-sports.io")
+#
+# headers = {
+#     'x-rapidapi-host': "v1.american-football.api-sports.io",
+#     'x-rapidapi-key': nfl_key
+#     }
+#
+# conn.request("GET", "/teams?id=29", headers=headers)
+#
+# res = conn.getresponse()
+# data = res.read()
+#
+# pprint.pprint(json.loads(data.decode("utf-8")))
 
-conn = http.client.HTTPSConnection("v1.american-football.api-sports.io")
-
-headers = {
-    'x-rapidapi-host': "v1.american-football.api-sports.io",
-    'x-rapidapi-key': nfl_key
-    }
-
-conn.request("GET", "/teams?id=101", headers=headers)
-
-res = conn.getresponse()
-data = res.read()
-
-pprint.pprint(json.loads(data.decode("utf-8")))
-
-
+# pprint.pprint(my_team_data)
 
 # # League Information
 # import http.client
@@ -93,7 +95,7 @@ pprint.pprint(json.loads(data.decode("utf-8")))
 #
 # headers = {
 #     'x-rapidapi-host': "v1.american-football.api-sports.io",
-#     'x-rapidapi-key': sports_key
+#     'x-rapidapi-key': nfl_key
 #     }
 #
 # conn.request("GET", "/leagues", headers=headers)
@@ -102,3 +104,9 @@ pprint.pprint(json.loads(data.decode("utf-8")))
 # data = res.read()
 #
 # pprint.pprint(json.loads(data.decode("utf-8")))
+
+# pprint.pprint(my_league_data['response'][0]['league']['name'])
+
+for league in my_league_data['response']:
+    print(league['league']['name'])
+
